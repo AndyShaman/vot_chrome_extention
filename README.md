@@ -1,42 +1,47 @@
-# VOT Chrome Extension
+<p align="center">
+  <img src="icons/icon-128.png" width="80" alt="VOT icon">
+</p>
 
-Standalone Chrome extension for video translation powered by Yandex Browser translation engine. No Tampermonkey required.
+<h1 align="center">VOT Chrome Extension</h1>
 
-Based on [voice-over-translation](https://github.com/ilyhalight/voice-over-translation) by [ilyhalight](https://github.com/ilyhalight) and contributors.
+<p align="center">
+Chrome-расширение для закадрового перевода видео.<br>
+Переводите видео на YouTube, Twitch, VK и 20+ сайтах — без Tampermonkey, в один клик.
+</p>
 
-## Installation
+<p align="center">
+  <a href="https://t.me/AI_Handler"><img src="https://img.shields.io/badge/Telegram-Канал%20автора-blue?logo=telegram&style=for-the-badge" alt="Telegram"></a>&nbsp;&nbsp;
+  <a href="https://www.youtube.com/channel/UCLkP6wuW_P2hnagdaZMBtCw"><img src="https://img.shields.io/badge/YouTube-Канал%20автора-red?logo=youtube&style=for-the-badge" alt="YouTube"></a>
+</p>
 
-1. Download this repository ([Download ZIP](https://github.com/AndyShaman/vot_chrome_extention/archive/refs/heads/main.zip)) and extract
-2. Open `chrome://extensions` in Google Chrome
-3. Enable **Developer mode** (toggle in the top right)
-4. Click **Load unpacked**
-5. Select the extracted folder (the one containing `manifest.json`)
-6. Done!
+---
 
-## Usage
+## Установка
 
-- **Enable / Disable** — click the extension icon in the toolbar (red = on, grey = off)
-- **Translate** — open any supported video, click the VOT button on the player
-- **Settings** — gear icon in the VOT panel on the video player
+1. [Скачайте ZIP](https://github.com/AndyShaman/vot_chrome_extention/archive/refs/heads/main.zip) и распакуйте
+2. Откройте `chrome://extensions` в Google Chrome
+3. Включите **Режим разработчика** (переключатель справа вверху)
+4. Нажмите **Загрузить распакованное расширение**
+5. Выберите распакованную папку (ту, в которой лежит `manifest.json`)
 
-## Supported sites
+## Использование
 
-YouTube, Twitch, VK, OK.ru, Coursera, Udemy, Twitter/X, Facebook, TikTok, Rutube, Bilibili, Mail.ru and [many more](https://github.com/ilyhalight/voice-over-translation/wiki/%5BRU%5D-Supported-sites).
+- **Вкл / Выкл** — клик по иконке расширения в панели Chrome (красная = вкл, серая = выкл)
+- **Перевести** — откройте видео, нажмите кнопку VOT на плеере
+- **Настройки** — шестерёнка в панели VOT на плеере
+
+## Поддерживаемые сайты
+
+YouTube, Twitch, VK, OK.ru, Coursera, Udemy, Twitter/X, Facebook, TikTok, Rutube, Bilibili, Mail.ru и [другие](https://github.com/ilyhalight/voice-over-translation/wiki/%5BRU%5D-Supported-sites).
 
 ## Credits
 
-**Original project:** [voice-over-translation](https://github.com/ilyhalight/voice-over-translation) (MIT License)
+**Оригинальный проект:** [voice-over-translation](https://github.com/ilyhalight/voice-over-translation) (MIT License)
 
-**Original authors:**
-[ilyhalight (Toil)](https://github.com/ilyhalight), [SashaXser](https://github.com/SashaXser), [MrSoczekXD](https://github.com/MrSoczekXD), [mynovelhost](https://github.com/mynovelhost), [sodapng](https://github.com/sodapng)
+**Авторы оригинала:** [ilyhalight (Toil)](https://github.com/ilyhalight), [SashaXser](https://github.com/SashaXser), [MrSoczekXD](https://github.com/MrSoczekXD), [mynovelhost](https://github.com/mynovelhost), [sodapng](https://github.com/sodapng)
 
-**Chrome Extension adaptation:** [AndyShaman](https://github.com/AndyShaman)
+**Chrome Extension:** [AndyShaman](https://github.com/AndyShaman)
 
-## Links
+## Лицензия
 
-- [Telegram](https://t.me/AI_Handler)
-- [YouTube](https://www.youtube.com/channel/UCLkP6wuW_P2hnagdaZMBtCw)
-
-## License
-
-[MIT License](LICENSE) — see the original [license](https://github.com/ilyhalight/voice-over-translation/blob/master/LICENSE).
+[MIT License](LICENSE) — см. [лицензию оригинального проекта](https://github.com/ilyhalight/voice-over-translation/blob/master/LICENSE).
